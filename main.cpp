@@ -1,4 +1,6 @@
 #include <iostream>
+
+//---------------------questão 1-----------------------//
 bool soma_pares(int lista[], int size, int value){ //declaração da função com os parametros, respectivamente ponteiro que aponta pra o primeiro indice da lista; quantidade de elementos da lista; valor que vai ser comparadao com a soma dos elementos da lista.
   if (size == 0){
     return false; // verificando se a lista está vazia 
